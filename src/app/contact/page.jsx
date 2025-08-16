@@ -9,10 +9,10 @@ export default function Home() {
         Contact us for a <span className="text-red-500">FREE</span> revamp of your outgoing document!
       </div>
       <div className="text-3xl text-gray-700 font-semibold">
-        Or for getting more clients for your business.
+        getting more clients for your business.
       </div>
       <div className="text-3xl text-gray-700 font-semibold">
-        Join us for a Networking Event in the calgary area.
+        Join us for a Networking Event in the CALGARY area.
       </div>
 
       {/* Contact Form */}

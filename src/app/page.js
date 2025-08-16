@@ -2,7 +2,8 @@ import Link from "next/link"; // ✅ Added Link import
 // import Image from "next/image"; // ❌ Remove if unused
 import { motion } from "motion/react"
  import Rot from "./components/rot"; 
-export default function Home() {
+
+ export default function Home() {
   return (
     
     <div className="font-sans bg-white min-h-screen text-black px-6 py-12">
@@ -36,7 +37,7 @@ export default function Home() {
       </section>
 
       <section className="text-center mt-12">
-        <Link
+      <Link
           href="/contact"
           className="mt-6 bg-black text-white py-3 px-6 font-semibold rounded-lg shadow hover:bg-[#E50914] hover:text-white transition"
         >
@@ -44,7 +45,7 @@ export default function Home() {
         </Link>
         
       </section>
-      <Rot/>
+     
     </div>
   );
 }

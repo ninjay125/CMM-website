@@ -24,7 +24,12 @@ export default function Faq() {
           .
         </>
       )
+     
     }
+    ,
+    {
+      question: "What services do you offer?",
+      answer: "We offer a range of services including marketing strategy development, networking opportunities, and business growth consulting." }
   ];
 
   const toggleFaq = (index) => {
