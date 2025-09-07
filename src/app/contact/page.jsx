@@ -20,6 +20,17 @@ export default function Home() {
         <h2 className="text-4xl font-bold mb-8 text-center">Contact Us</h2>
 
         <form className="space-y-8">
+           <div>
+            <label htmlFor="name" className="block mb-3 font-bold text-2xl">
+              Name
+            </label>
+            <input
+              id="name"
+              type="name"
+              className="w-full p-4 rounded-xl border border-black bg-white text-black text-2xl focus:outline-none focus:ring-2 focus:ring-black"
+              required
+            />
+          </div>
           <div>
             <label htmlFor="email" className="block mb-3 font-bold text-2xl">
               Email
