@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import { Mail } from "lucide-react";
 export default function Home() {
   return (
     <div className="min-h-screen bg-white flex flex-col items-center justify-center px-4 space-y-8">
@@ -33,7 +33,7 @@ export default function Home() {
           </div>
           <div>
             <label htmlFor="email" className="block mb-3 font-bold text-2xl">
-              Email
+             <Mail />Email
             </label>
             <input
               id="email"
