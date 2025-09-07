@@ -6,7 +6,7 @@ export default function Home() {
       <p className="text-lg text-gray-600">No events to display.</p>
       
        <Link href="/contact" className="mt-6 bg-black text-white py-3 px-6 font-semibold rounded-lg shadow hover:bg-[#E50914] hover:text-white transition">
-          Let’s Talk events 
+          Let’s Talk events ffffff
         </Link>
     </div>
   );
