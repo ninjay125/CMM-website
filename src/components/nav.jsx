@@ -1,13 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import CMMlogo from "./CMMlogo.jpg";
+// import CMMlogo from "./CMMlogo.jpg";
 
 export default function Nav() {
   return (
     <nav className="    bg-black  py-4 flex items-center justify-center space-x-6">
       <Link href="/">
         <Image
-          src={CMMlogo}
+          src={'/CMMlogo.jpg'}
           alt="CMM Logo"
           width={120}
           height={40}
@@ -27,11 +27,11 @@ export default function Nav() {
             Contact
           </Link>
         </li>
-                <li>
+        <li>
           <Link href="/events" className=" text-3xl text-red-500 hover:text-gray-300 font-medium">
             Events
           </Link>
-          
+
         </li>
       </ul>
     </nav>
