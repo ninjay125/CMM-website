@@ -1,9 +1,9 @@
-import Image from "next/image";
 import { Mail } from "lucide-react";
+import { sendEmail } from "@/lib/actions/resend";
 export default function Home() {
   return (
     <div className="min-h-screen bg-white flex flex-col items-center justify-center px-4 space-y-8">
-      
+
       {/* Promo line */}
       <div className="text-center text-4xl font-extrabold text-gray-800">
         Contact us for a <span className="text-red-500">FREE</span> revamp of your outgoing document!
@@ -19,24 +19,26 @@ export default function Home() {
       <div className="bg-black text-white rounded-xl p-10 w-full max-w-md shadow-lg">
         <h2 className="text-4xl font-bold mb-8 text-center">Contact Us</h2>
 
-        <form className="space-y-8">
-           <div>
+        <form action={sendEmail} className="space-y-8">
+          <div>
             <label htmlFor="name" className="block mb-3 font-bold text-2xl">
               Name
             </label>
             <input
               id="name"
-              type="name"
+              name="name" // Add this
+              type="text"
               className="w-full p-4 rounded-xl border border-black bg-white text-black text-2xl focus:outline-none focus:ring-2 focus:ring-black"
               required
             />
           </div>
           <div>
             <label htmlFor="email" className="block mb-3 font-bold text-2xl">
-             <Mail />Email
+              <Mail />Email
             </label>
             <input
               id="email"
+              name="email" // Add this
               type="email"
               className="w-full p-4 rounded-xl border border-black bg-white text-black text-2xl focus:outline-none focus:ring-2 focus:ring-black"
               required
@@ -44,11 +46,12 @@ export default function Home() {
           </div>
 
           <div>
-            <label htmlFor="number" className="block mb-3 font-bold text-2xl">
+            <label htmlFor="phoneNumber" className="block mb-3 font-bold text-2xl">
               Phone Number
             </label>
             <input
-              id="number"
+              id="phoneNumber" // Also, ensure the id matches the name you're using in sendEmail
+              name="phoneNumber" // Add this
               type="tel"
               className="w-full p-4 rounded-xl border border-black bg-white text-black text-2xl focus:outline-none focus:ring-2 focus:ring-black"
               required

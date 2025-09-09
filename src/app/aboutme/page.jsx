@@ -19,7 +19,7 @@ export default function Home() {
         </div>
 
         <div className="bg-black text-white p-6 rounded-xl shadow italic font-bold">
-          I provide marfketing and networking services that are not just about visibility, but about creating valuable connections that lead to real business growth.
+          I provide marketing and networking services that are not just about visibility, but about creating valuable connections that lead to real business growth.
         </div>
       </section>
         <section className="text-center mt-12">

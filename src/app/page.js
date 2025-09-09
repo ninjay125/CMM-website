@@ -1,8 +1,5 @@
 'use client'
 import Link from "next/link"; // ✅ Added Link import
-// import Image from "next/image"; // ❌ Remove if unused
-import { motion } from "motion/react"
- import Rot from "./components/rot"; 
 
  export default function Home() {
   return (
