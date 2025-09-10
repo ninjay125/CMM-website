@@ -24,7 +24,7 @@ export default function Home() {
            <div>
             <label htmlFor="name" className="block mb-3 font-bold text-2xl">
               Name
-            </label>            git branch -a
+            </label>            
             <input
               id="name"
               type="name"
