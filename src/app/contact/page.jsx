@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Mail } from "lucide-react";
+import { PhoneCall } from "lucide-react";
 export default function Home() {
   return (
     <div className="min-h-screen bg-white flex flex-col items-center justify-center px-4 space-y-8">
@@ -17,13 +18,13 @@ export default function Home() {
 
       {/* Contact Form */}
       <div className="bg-black text-white rounded-xl p-10 w-full max-w-md shadow-lg">
-        <h2 className="text-4xl font-bold mb-8 text-center">Contact Us</h2>
+        <h2 className="text-6xl font-bold mb-8 text-center">Contact Us</h2>
 
         <form className="space-y-8">
            <div>
             <label htmlFor="name" className="block mb-3 font-bold text-2xl">
               Name
-            </label>
+            </label>            git branch -a
             <input
               id="name"
               type="name"
@@ -45,6 +46,7 @@ export default function Home() {
 
           <div>
             <label htmlFor="number" className="block mb-3 font-bold text-2xl">
+              <PhoneCall />
               Phone Number
             </label>
             <input
