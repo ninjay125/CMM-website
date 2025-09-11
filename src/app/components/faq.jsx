@@ -46,7 +46,7 @@ export default function Faq() {
             className="border-b border-gray-300 pb-2 cursor-pointer"
           >
             <h2
-              className="text-xl text-balck font-semibold flex justify-between items-center"
+              className="text-base md:text-xl text-balck font-semibold flex justify-between items-center"
               onClick={() => toggleFaq(index)}
             >
               {faq.question}
