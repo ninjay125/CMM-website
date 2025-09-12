@@ -38,7 +38,7 @@ export default function Faq() {
 
   return (
     <div className="bg-gray-100 p-6 rounded-lg ">
-      <h1 className="text-2xl font-bold mb-4">Frequently Asked Questions</h1>
+      <h1 className="text-2xl font-bold mb-4 text-black">Frequently Asked Questions</h1>
       <div className="space-y-4">
         {faqs.map((faq, index) => (
           <div
