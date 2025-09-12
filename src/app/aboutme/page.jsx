@@ -10,15 +10,15 @@ export default function Home() {
       </section>
 
       <section className="max-w-3xl mx-auto space-y-6">
-        <div className="bg-black text-white p-6 rounded-xl shadow italic font-bold">
+        <div className="bg-black text-white p-6 rounded-xl  italic font-bold">
           I’m a Mechanical Engineering Technician specializing in Industrial Automation, with hands-on experience in the manufacturing industry (in a srart up). 
         </div>
 
-        <div className="bg-black text-white p-6 rounded-xl shadow italic font-bold">
+        <div className="bg-black text-white p-6 rounded-xl  italic font-bold">
           I have a proven track record of turning “nothing” into results — helping businesses transform 0$ into revenue through smart automation, process optimization, and strategic thinking.
         </div>
 
-        <div className="bg-black text-white p-6 rounded-xl shadow italic font-bold">
+        <div className="bg-black text-white p-6 rounded-xl  italic font-bold">
           I provide marfketing and networking services that are not just about visibility, but about creating valuable connections that lead to real business growth.
         </div>
       </section>
