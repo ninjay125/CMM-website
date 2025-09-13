@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
-      <section className="max-w-4xl mx-auto bg-white text-center">
+    <div className= "bg-white min-h-screen text-black px-6 py-12 font-sans">
+      <section className="max-w-4xl mx-auto  text-center">
         <h1 className="text-4xl md:text-5xl font-bold text-black mb-6">
           Who I Am & Why You Need Me
         </h1>
