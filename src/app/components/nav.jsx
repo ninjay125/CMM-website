@@ -10,8 +10,7 @@ export default function Nav() {
           src={CMMlogo}
           alt="CMM Logo"
           width={120}
-          height={120
-          }
+          height={120}
           className="cursor-pointer"
         />
       </Link>
