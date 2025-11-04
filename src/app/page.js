@@ -14,7 +14,7 @@ import Link from "next/link"; // ✅ Added Link import
           <br />
           <br />
           We’re not just about visibility. We’re about{" "}
-          <strong className="text-[#E50914]">valuable visibility</strong> — helping businesses get in front of the right people, at the right time, with the right message. Whether you&apos re launching a startup, scaling a service, or just tired of the noise, we bring clarity, creativity, and connections that convert.
+          <strong className="text-[#E50914]">valuable visibility</strong> — helping businesses get in front of the right people, at the right time, with the right message. Whether you&apos;re launching a startup, scaling a service, or just tired of the noise, we bring clarity, creativity, and connections that convert.
           <br />
           <br />
           Our difference? We bridge the gap between{" "}
@@ -24,10 +24,10 @@ import Link from "next/link"; // ✅ Added Link import
 
       <section className="max-w-3xl mx-auto space-y-6">
         <div className="bg-black text-white p-6 rounded-xl shadow italic font-bold">
-          You waste your time on advertising when you should be focusing on your business &apos s growth.
+          You waste your time on advertising when you should be focusing on your business&apos;s growth.
         </div>
         <div className="bg-black text-white p-6 rounded-xl shadow italic font-bold">
-          You pay a big firm for advertising, but they give you an out-of-the-box solution that doesn &apos t deliver results.
+          You pay a big firm for advertising, but they give you an out-of-the-box solution that doesn&apos;t deliver results.
         </div>
         <div className="bg-black text-white p-6 rounded-xl shadow italic font-bold">
           Hiring someone to advertise your business is a process — and not everyone is competent.

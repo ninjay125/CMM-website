@@ -16,10 +16,10 @@ export default function Faq() {
         <>
           You can reach us via email at{" "}
           <a
-            href="mailto:info@cmmagency.com"
+            href="charles.m@cmm.engineering"
             className="text-red-500 hover:underline"
           >
-            info@cmmagency.com
+            charles.m@cmm.engineering
           </a>
           .
         </>
@@ -37,8 +37,8 @@ export default function Faq() {
   };
 
   return (
-    <div className="bg-gray-100 p-6 rounded-lg shadow-md">
-      <h1 className="text-2xl font-bold mb-4">Frequently Asked Questions</h1>
+    <div className="bg-gray-100 p-6 rounded-lg ">
+      <h1 className="text-2xl font-bold mb-4 text-black">Frequently Asked Questions</h1>
       <div className="space-y-4">
         {faqs.map((faq, index) => (
           <div
@@ -46,7 +46,7 @@ export default function Faq() {
             className="border-b border-gray-300 pb-2 cursor-pointer"
           >
             <h2
-              className="text-xl font-semibold flex justify-between items-center"
+              className="text-base md:text-xl text-black font-semibold flex justify-between items-center"
               onClick={() => toggleFaq(index)}
             >
               {faq.question}

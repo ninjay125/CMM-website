@@ -2,19 +2,19 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
-      <section className="max-w-4xl mx-auto text-center">
+    <div className= "bg-white min-h-screen text-black px-6 py-12 font-sans">
+      <section className="max-w-4xl mx-auto  text-center">
         <h1 className="text-4xl md:text-5xl font-bold text-black mb-6">
           Who I Am & Why You Need Me
         </h1>
       </section>
 
       <section className="max-w-3xl mx-auto space-y-6">
-        <div className="bg-black text-white p-6 rounded-xl shadow italic font-bold">
+        <div className="bg-black text-white p-6 rounded-xl  italic font-bold">
           I’m a Mechanical Engineering Technician specializing in Industrial Automation, with hands-on experience in the manufacturing industry (in a srart up). 
         </div>
 
-        <div className="bg-black text-white p-6 rounded-xl shadow italic font-bold">
+        <div className="bg-black text-white p-6 rounded-xl  italic font-bold">
           I have a proven track record of turning “nothing” into results — helping businesses transform 0$ into revenue through smart automation, process optimization, and strategic thinking.
         </div>
 

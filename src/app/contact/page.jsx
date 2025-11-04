@@ -1,4 +1,5 @@
 import { Mail } from "lucide-react";
+import { PhoneCall } from "lucide-react";
 import { sendEmail } from "@/lib/actions/resend";
 export default function Home() {
   return (
@@ -17,13 +18,13 @@ export default function Home() {
 
       {/* Contact Form */}
       <div className="bg-black text-white rounded-xl p-10 w-full max-w-md shadow-lg">
-        <h2 className="text-4xl font-bold mb-8 text-center">Contact Us</h2>
+        <h2 className="text-6xl font-bold mb-8 text-center">Contact Us</h2>
 
         <form action={sendEmail} className="space-y-8">
           <div>
             <label htmlFor="name" className="block mb-3 font-bold text-2xl">
               Name
-            </label>
+            </label>            
             <input
               id="name"
               name="name" // Add this
@@ -46,6 +47,8 @@ export default function Home() {
           </div>
 
           <div>
+            <label htmlFor="number" className="block mb-3 font-bold text-2xl">
+              <PhoneCall />
             <label htmlFor="phoneNumber" className="block mb-3 font-bold text-2xl">
               Phone Number
             </label>
