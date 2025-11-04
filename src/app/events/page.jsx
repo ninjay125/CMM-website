@@ -1,4 +1,4 @@
-import GoogleCalendar from "../components/GoogleCalendar";
+import GoogleCalendar from "../../components/GoogleCalendar";
 import Link from "next/link";
 
 export default function Home() {
