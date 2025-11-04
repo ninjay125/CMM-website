@@ -49,8 +49,11 @@ export default function Home() {
           <div>
             <label htmlFor="number" className="block mb-3 font-bold text-2xl">
               <PhoneCall />
+              </label>
             <label htmlFor="phoneNumber" className="block mb-3 font-bold text-2xl">
               Phone Number
+
+              
             </label>
             <input
               id="phoneNumber" // Also, ensure the id matches the name you're using in sendEmail
