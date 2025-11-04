@@ -18,8 +18,8 @@ export default function Home() {
           I have a proven track record of turning “nothing” into results — helping businesses transform 0$ into revenue through smart automation, process optimization, and strategic thinking.
         </div>
 
-        <div className="bg-black text-white p-6 rounded-xl  italic font-bold">
-          I provide marfketing and networking services that are not just about visibility, but about creating valuable connections that lead to real business growth.
+        <div className="bg-black text-white p-6 rounded-xl shadow italic font-bold">
+          I provide marketing and networking services that are not just about visibility, but about creating valuable connections that lead to real business growth.
         </div>
       </section>
         <section className="text-center mt-12">
